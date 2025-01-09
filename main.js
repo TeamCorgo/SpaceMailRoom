@@ -27,7 +27,7 @@ function dice_initialize(container) {
 		
 		test = (result.reduce(function(s, a) { return s + a; }) + notation.constant);
 		document.getElementById("output").value = test;
-        res = (result.reduce(function(s, a) { return s + a; }) + notation.constant) + ' New Letters Received';
+        res = (result.reduce(function(s, a) { return s + a; }) + notation.constant) + ' New Letter(s) Received';
         label.innerHTML = res;
     }
 
